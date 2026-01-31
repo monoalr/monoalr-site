@@ -14,8 +14,12 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "monoalr — game dev / 3D / animation",
-  description: "Разработка игровых механик, 3D и анимации. Roblox и не только.",
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
+  },
 };
+
 
 
 export default function RootLayout({
